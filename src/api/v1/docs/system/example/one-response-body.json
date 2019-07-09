@@ -1,0 +1,12 @@
+{
+  "registration": {
+    "access": "open",
+    "defaultStatus": 1
+  },
+  "login": {
+    "defaultCompanyId": 1
+  },
+  "confirm": {
+    "smsInterval": 60
+  }
+}
