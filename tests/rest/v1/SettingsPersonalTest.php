@@ -6,10 +6,10 @@ use yii2bundle\settings\tests\rest\v1\SettingsSchema;
 use yii2lab\rest\domain\entities\RequestEntity;
 use yii2lab\test\helpers\TestHelper;
 use yii2lab\test\Test\BaseActiveApiTest;
-use yii2module\account\domain\v3\helpers\test\CurrentPhoneTestHelper;
-use yii2module\account\domain\v3\helpers\test\AuthTestHelper;
+use yii2bundle\account\domain\v3\helpers\test\CurrentPhoneTestHelper;
+use yii2bundle\account\domain\v3\helpers\test\AuthTestHelper;
 use yii2rails\extension\web\enums\HttpMethodEnum;
-use yii2module\account\domain\v3\helpers\test\RegistrationTestHelper;
+use yii2bundle\account\domain\v3\helpers\test\RegistrationTestHelper;
 
 class SettingsPersonalTest extends BaseActiveApiTest
 {
