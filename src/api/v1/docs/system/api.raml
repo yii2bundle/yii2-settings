@@ -1,7 +1,7 @@
 description: "Подразделения"
 get:
     description: "Получить все настройки"
-    is: !include /../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/all.raml
+    is: !include /../../../vendor/zndoc/rest-api/src/is/all.raml
     responses:
         200:
             body:
@@ -14,7 +14,7 @@ get:
             type: string
     get:
         description: "Получить настройки по имени"
-        is: !include /../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/one.raml
+        is: !include /../../../vendor/zndoc/rest-api/src/is/one.raml
         responses:
             200:
                 body:
